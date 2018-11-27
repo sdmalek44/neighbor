@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { ActionCableProvider } from 'react-actioncable-provider';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import serviceWorker from './serviceWorker';
 import { API_WS_ROOT } from './constants';
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-registerServiceWorker();
+serviceWorker();
 
 
 // If you want your app to work offline and load faster, you can change

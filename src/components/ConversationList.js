@@ -1,10 +1,3 @@
-import React from 'react';
-import { ActionCable } from 'react-actioncable-provider';
-import { API_ROOT } from '../constants';
-import NewConversationForm from './NewConversationForm';
-import MessagesArea from './MessagesArea';
-import Cable from './Cable';
-
 
 import React from 'react';
 import { ActionCable } from 'react-actioncable-provider';

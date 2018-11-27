@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ConversationsList from './components/ConversationsList';
+import ConversationsList from './components/ConversationList';
 
 class App extends Component {
   render() {
